@@ -2,11 +2,11 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
+    "start": "mdx-deck src/deck.mdx",
+    "build": "mdx-deck build src/deck.mdx",
     "test": "echo \"there are no tests\""
   },
-  "devDependencies": {
+  "dependencies": {
     "code-surfer": "3.0.0",
     "mdx-deck": "3.0.13"
   },
