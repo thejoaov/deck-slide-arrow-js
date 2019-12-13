@@ -5,16 +5,11 @@
   "scripts": {
     "start": "mdx-deck src/deck.mdx",
     "build": "mdx-deck build src/deck.mdx",
-    "test": "echo \"there are no tests\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"there are no tests\""
   },
   "dependencies": {
     "code-surfer": "3.0.0",
     "mdx-deck": "3.0.13"
   },
-  "name": "my-deck",
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
-  }
+  "name": "my-deck"
 }
